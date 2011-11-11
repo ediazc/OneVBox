@@ -39,7 +39,7 @@ end
 #   for everything else, top & proc
 #####
 
-NETINTERFACE = "eth1"
+NETINTERFACE = "eth0"
 
 top_text=`top -bin2`
 exit(-1) if $?.exitstatus!=0
